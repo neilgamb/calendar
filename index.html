@@ -1,0 +1,261 @@
+<!doctype html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.js"></script>
+</head>
+
+<body>
+    <section class="week_view">
+        <header class="week_view_header">
+            <div class="header_day" id="header_times"></div>
+            <div class="header_day" id="header_day_one">
+                <p class="header_labels">SUN</p>
+            </div>
+            <div class="header_day" id="header_day_two">
+                <p class="header_labels">MON</p>
+            </div>
+            <div class="header_day" id="header_day_three">
+                <p class="header_labels">TUE</p>
+            </div>
+            <div class="header_day" id="header_day_four">
+                <p class="header_labels">WED</p>
+            </div>
+            <div class="header_day" id="header_day_five">
+                <p class="header_labels">THU</p>
+            </div>
+            <div class="header_day" id="header_day_six">
+                <p class="header_labels">FRI</p>
+            </div>
+            <div class="header_day" id="header_day_seven">
+                <p class="header_labels">SAT</p>
+            </div>
+        </header>
+        <div class="week_view_schedule">
+            <div class="schedule_wrapper">
+                <div class="day" id="day_times">
+                    <div class="fullday" id="fullday_label"></div>
+                    <div class="hour" id="day_times_hour_one"></div>
+                    <div class="hour" id="day_times_hour_two"></div>
+                    <div class="hour" id="day_times_hour_three"></div>
+                    <div class="hour" id="day_times_hour_four"></div>
+                    <div class="hour" id="day_times_hour_five"></div>
+                    <div class="hour" id="day_times_hour_six"></div>
+                    <div class="hour" id="day_times_hour_seven"></div>
+                    <div class="hour" id="day_times_hour_eight"></div>
+                    <div class="hour" id="day_times_hour_nine"></div>
+                    <div class="hour" id="day_times_hour_ten"></div>
+                    <div class="hour" id="day_times_hour_eleven"></div>
+                    <div class="hour" id="day_times_hour_twelve"></div>
+                    <div class="hour" id="day_times_hour_thirteen"></div>
+                    <div class="hour" id="day_times_hour_fourteen"></div>
+                    <div class="hour" id="day_times_hour_fifteen"></div>
+                    <div class="hour" id="day_times_hour_sixteen"></div>
+                    <div class="hour" id="day_times_hour_seventeen"></div>
+                    <div class="hour" id="day_times_hour_eighteen"></div>
+                    <div class="hour" id="day_times_hour_nineteen"></div>
+                    <div class="hour" id="day_times_hour_twenty"></div>
+                    <div class="hour" id="day_times_hour_twentyone"></div>
+                    <div class="hour" id="day_times_hour_twentytwo"></div>
+                    <div class="hour" id="day_times_hour_twentythree"></div>
+                    <div class="hour" id="day_times_hour_twentyfour"></div>
+                </div>
+                <div class="day" id="day_one">
+                    <div class="fullday" id="day_one_fullday"></div>
+                    <div class="hour" id="day_one_hour_one"></div>
+                    <div class="hour" id="day_one_hour_two"></div>
+                    <div class="hour" id="day_one_hour_three"></div>
+                    <div class="hour" id="day_one_hour_four"></div>
+                    <div class="hour" id="day_one_hour_five"></div>
+                    <div class="hour" id="day_one_hour_six"></div>
+                    <div class="hour" id="day_one_hour_seven"></div>
+                    <div class="hour" id="day_one_hour_eight"></div>
+                    <div class="hour" id="day_one_hour_nine"></div>
+                    <div class="hour" id="day_one_hour_ten"></div>
+                    <div class="hour" id="day_one_hour_eleven"></div>
+                    <div class="hour" id="day_one_hour_twelve"></div>
+                    <div class="hour" id="day_one_hour_thirteen"></div>
+                    <div class="hour" id="day_one_hour_fourteen"></div>
+                    <div class="hour" id="day_one_hour_fifteen"></div>
+                    <div class="hour" id="day_one_hour_sixteen"></div>
+                    <div class="hour" id="day_one_hour_seventeen"></div>
+                    <div class="hour" id="day_one_hour_eighteen"></div>
+                    <div class="hour" id="day_one_hour_nineteen"></div>
+                    <div class="hour" id="day_one_hour_twenty"></div>
+                    <div class="hour" id="day_one_hour_twentyone"></div>
+                    <div class="hour" id="day_one_hour_twentytwo"></div>
+                    <div class="hour" id="day_one_hour_twentythree"></div>
+                    <div class="hour" id="day_one_hour_twentyfour"></div>
+                </div>
+                <div class="day" id="day_two">
+                    <div class="fullday" id="day_two_fullday"></div>
+                    <div class="hour" id="day_two_hour_one"></div>
+                    <div class="hour" id="day_two_hour_two"></div>
+                    <div class="hour" id="day_two_hour_three">
+                        <div class="event event_category_meetings length start_three" id="day_two_hour_one_event_one">Meet with Joe<br>3:45 - 4:00</div>
+                    </div>
+                    <div class="hour" id="day_two_hour_four"></div>
+                    <div class="hour" id="day_two_hour_five"></div>
+                    <div class="hour" id="day_two_hour_six"></div>
+                    <div class="hour" id="day_two_hour_seven"></div>
+                    <div class="hour" id="day_two_hour_eight"></div>
+                    <div class="hour" id="day_two_hour_nine"></div>
+                    <div class="hour" id="day_two_hour_ten"></div>
+                    <div class="hour" id="day_two_hour_eleven"></div>
+                    <div class="hour" id="day_two_hour_twelve"></div>
+                    <div class="hour" id="day_two_hour_thirteen"></div>
+                    <div class="hour" id="day_two_hour_fourteen"></div>
+                    <div class="hour" id="day_two_hour_fifteen"></div>
+                    <div class="hour" id="day_two_hour_sixteen"></div>
+                    <div class="hour" id="day_two_hour_seventeen"></div>
+                    <div class="hour" id="day_two_hour_eighteen"></div>
+                    <div class="hour" id="day_two_hour_nineteen"></div>
+                    <div class="hour" id="day_two_hour_twenty"></div>
+                    <div class="hour" id="day_two_hour_twentyone"></div>
+                    <div class="hour" id="day_two_hour_twentytwo"></div>
+                    <div class="hour" id="day_two_hour_twentythree"></div>
+                    <div class="hour" id="day_two_hour_twentyfour"></div>
+                </div>
+                <div class="day" id="day_three">
+                    <div class="fullday" id="day_three_fullday"></div>
+                    <div class="hour" id="day_three_hour_one"></div>
+                    <div class="hour" id="day_three_hour_two"></div>
+                    <div class="hour" id="day_three_hour_three"></div>
+                    <div class="hour" id="day_three_hour_four"></div>
+                    <div class="hour" id="day_three_hour_five"></div>
+                    <div class="hour" id="day_three_hour_six"></div>
+                    <div class="hour" id="day_three_hour_seven"></div>
+                    <div class="hour" id="day_three_hour_eight"></div>
+                    <div class="hour" id="day_three_hour_nine"></div>
+                    <div class="hour" id="day_three_hour_ten"></div>
+                    <div class="hour" id="day_three_hour_eleven"></div>
+                    <div class="hour" id="day_three_hour_twelve"></div>
+                    <div class="hour" id="day_three_hour_thirteen"></div>
+                    <div class="hour" id="day_three_hour_fourteen"></div>
+                    <div class="hour" id="day_three_hour_fifteen"></div>
+                    <div class="hour" id="day_three_hour_sixteen"></div>
+                    <div class="hour" id="day_three_hour_seventeen"></div>
+                    <div class="hour" id="day_three_hour_eighteen"></div>
+                    <div class="hour" id="day_three_hour_nineteen"></div>
+                    <div class="hour" id="day_three_hour_twenty"></div>
+                    <div class="hour" id="day_three_hour_twentyone"></div>
+                    <div class="hour" id="day_three_hour_twentytwo"></div>
+                    <div class="hour" id="day_three_hour_twentythree"></div>
+                    <div class="hour" id="day_three_hour_twentyfour"></div>
+                </div>
+                <div class="day" id="day_four">
+                    <div class="fullday" id="day_four_fullday"></div>
+                    <div class="hour" id="day_four_hour_one"></div>
+                    <div class="hour" id="day_four_hour_two"></div>
+                    <div class="hour" id="day_four_hour_three"></div>
+                    <div class="hour" id="day_four_hour_four"></div>
+                    <div class="hour" id="day_four_hour_five"></div>
+                    <div class="hour" id="day_four_hour_six"></div>
+                    <div class="hour" id="day_four_hour_seven"></div>
+                    <div class="hour" id="day_four_hour_eight"></div>
+                    <div class="hour" id="day_four_hour_nine"></div>
+                    <div class="hour" id="day_four_hour_ten"></div>
+                    <div class="hour" id="day_four_hour_eleven"></div>
+                    <div class="hour" id="day_four_hour_twelve"></div>
+                    <div class="hour" id="day_four_hour_thirteen"></div>
+                    <div class="hour" id="day_four_hour_fourteen"></div>
+                    <div class="hour" id="day_four_hour_fifteen"></div>
+                    <div class="hour" id="day_four_hour_sixteen"></div>
+                    <div class="hour" id="day_four_hour_seventeen"></div>
+                    <div class="hour" id="day_four_hour_eighteen"></div>
+                    <div class="hour" id="day_four_hour_nineteen"></div>
+                    <div class="hour" id="day_four_hour_twenty"></div>
+                    <div class="hour" id="day_four_hour_twentyone"></div>
+                    <div class="hour" id="day_four_hour_twentytwo"></div>
+                    <div class="hour" id="day_four_hour_twentythree"></div>
+                    <div class="hour" id="day_four_hour_twentyfour"></div>
+                </div>
+                <div class="day" id="day_five">
+                    <div class="fullday" id="day_five_fullday"></div>
+                    <div class="hour" id="day_five_hour_one"></div>
+                    <div class="hour" id="day_five_hour_two"></div>
+                    <div class="hour" id="day_five_hour_three"></div>
+                    <div class="hour" id="day_five_hour_four"></div>
+                    <div class="hour" id="day_five_hour_five"></div>
+                    <div class="hour" id="day_five_hour_six"></div>
+                    <div class="hour" id="day_five_hour_seven"></div>
+                    <div class="hour" id="day_five_hour_eight"></div>
+                    <div class="hour" id="day_five_hour_nine"></div>
+                    <div class="hour" id="day_five_hour_ten"></div>
+                    <div class="hour" id="day_five_hour_eleven"></div>
+                    <div class="hour" id="day_five_hour_twelve"></div>
+                    <div class="hour" id="day_five_hour_thirteen"></div>
+                    <div class="hour" id="day_five_hour_fourteen"></div>
+                    <div class="hour" id="day_five_hour_fifteen"></div>
+                    <div class="hour" id="day_five_hour_sixteen"></div>
+                    <div class="hour" id="day_five_hour_seventeen"></div>
+                    <div class="hour" id="day_five_hour_eighteen"></div>
+                    <div class="hour" id="day_five_hour_nineteen"></div>
+                    <div class="hour" id="day_five_hour_twenty"></div>
+                    <div class="hour" id="day_five_hour_twentyone"></div>
+                    <div class="hour" id="day_five_hour_twentytwo"></div>
+                    <div class="hour" id="day_five_hour_twentythree"></div>
+                    <div class="hour" id="day_five_hour_twentyfour"></div>
+                </div>
+                <div class="day" id="day_six">
+                    <div class="fullday" id="day_six_fullday"></div>
+                    <div class="hour" id="day_six_hour_one"></div>
+                    <div class="hour" id="day_six_hour_two"></div>
+                    <div class="hour" id="day_six_hour_three"></div>
+                    <div class="hour" id="day_six_hour_four"></div>
+                    <div class="hour" id="day_six_hour_five"></div>
+                    <div class="hour" id="day_six_hour_six"></div>
+                    <div class="hour" id="day_six_hour_seven"></div>
+                    <div class="hour" id="day_six_hour_eight"></div>
+                    <div class="hour" id="day_six_hour_nine"></div>
+                    <div class="hour" id="day_six_hour_ten"></div>
+                    <div class="hour" id="day_six_hour_eleven"></div>
+                    <div class="hour" id="day_six_hour_twelve"></div>
+                    <div class="hour" id="day_six_hour_thirteen"></div>
+                    <div class="hour" id="day_six_hour_fourteen"></div>
+                    <div class="hour" id="day_six_hour_fifteen"></div>
+                    <div class="hour" id="day_six_hour_sixteen"></div>
+                    <div class="hour" id="day_six_hour_seventeen"></div>
+                    <div class="hour" id="day_six_hour_eighteen"></div>
+                    <div class="hour" id="day_six_hour_nineteen"></div>
+                    <div class="hour" id="day_six_hour_twenty"></div>
+                    <div class="hour" id="day_six_hour_twentyone"></div>
+                    <div class="hour" id="day_six_hour_twentytwo"></div>
+                    <div class="hour" id="day_six_hour_twentythree"></div>
+                    <div class="hour" id="day_six_hour_twentyfour"></div>
+                </div>
+                <div class="day" id="day_seven">
+                    <div class="fullday" id="day_seven_fullday"></div>
+                    <div class="hour" id="day_seven_hour_one"></div>
+                    <div class="hour" id="day_seven_hour_two"></div>
+                    <div class="hour" id="day_seven_hour_three"></div>
+                    <div class="hour" id="day_seven_hour_four"></div>
+                    <div class="hour" id="day_seven_hour_five"></div>
+                    <div class="hour" id="day_seven_hour_six"></div>
+                    <div class="hour" id="day_seven_hour_seven"></div>
+                    <div class="hour" id="day_seven_hour_eight"></div>
+                    <div class="hour" id="day_seven_hour_nine"></div>
+                    <div class="hour" id="day_seven_hour_ten"></div>
+                    <div class="hour" id="day_seven_hour_eleven"></div>
+                    <div class="hour" id="day_seven_hour_twelve"></div>
+                    <div class="hour" id="day_seven_hour_thirteen"></div>
+                    <div class="hour" id="day_seven_hour_fourteen"></div>
+                    <div class="hour" id="day_seven_hour_fifteen"></div>
+                    <div class="hour" id="day_seven_hour_sixteen"></div>
+                    <div class="hour" id="day_seven_hour_seventeen"></div>
+                    <div class="hour" id="day_seven_hour_eighteen"></div>
+                    <div class="hour" id="day_seven_hour_nineteen"></div>
+                    <div class="hour" id="day_seven_hour_twenty"></div>
+                    <div class="hour" id="day_seven_hour_twentyone"></div>
+                    <div class="hour" id="day_seven_hour_twentytwo"></div>
+                    <div class="hour" id="day_seven_hour_twentythree"></div>
+                    <div class="hour" id="day_seven_hour_twentyfour"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

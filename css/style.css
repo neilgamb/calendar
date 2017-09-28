@@ -1,0 +1,100 @@
+* {
+  margin: 0px;
+  padding: 0px; }
+
+body {
+  background-color: lightgray;
+  height: 100vh;
+  position: relative; }
+  body .week_view {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 90%;
+    height: 90vh;
+    background-color: white;
+    box-shadow: 5px 3px 13px -10px rgba(114, 114, 114, 0.74);
+    display: flex;
+    flex-direction: column; }
+    body .week_view ::-webkit-scrollbar {
+      display: none; }
+    body .week_view .week_view_header {
+      width: 100%;
+      height: 10%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around; }
+      body .week_view .week_view_header .header_day {
+        height: 100%;
+        width: 16%;
+        text-align: center;
+        background-color: #008BFF;
+        color: white;
+        box-sizing: border-box;
+        border-right: 1px solid white; }
+        body .week_view .week_view_header .header_day .header_labels {
+          margin-top: 25px;
+          font-size: 24px;
+          font-weight: bold; }
+      body .week_view .week_view_header .header_day:last-child {
+        border-right: 1px solid #008BFF; }
+      body .week_view .week_view_header .header_day:first-child {
+        width: 50px;
+        background-color: lightgray;
+        border-bottom: 1px solid lightgray;
+        border-right: 1px solid lightgray; }
+    body .week_view .week_view_schedule {
+      width: 100%;
+      height: 90%;
+      overflow: auto; }
+      body .week_view .week_view_schedule .schedule_wrapper {
+        height: 2500px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around; }
+        body .week_view .week_view_schedule .schedule_wrapper .day {
+          height: 100%;
+          width: 16%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          border-right: 1px solid #C8C8C8; }
+          body .week_view .week_view_schedule .schedule_wrapper .day .hour,
+          body .week_view .week_view_schedule .schedule_wrapper .day .fullday {
+            height: 100px;
+            width: 100%;
+            border-bottom: 1px solid #C8C8C8;
+            position: relative; }
+          body .week_view .week_view_schedule .schedule_wrapper .day .fullday {
+            border-bottom: 1px solid white; }
+          body .week_view .week_view_schedule .schedule_wrapper .day #day_seven_fullday {
+            border-right: 1px solid #C8C8C8; }
+        body .week_view .week_view_schedule .schedule_wrapper .fullday {
+          background-color: #C8C8C8;
+          border-right: 1px solid white;
+          border-bottom-color: white; }
+        body .week_view .week_view_schedule .schedule_wrapper #day_times {
+          width: 50px;
+          background-color: #A3CDED; }
+          body .week_view .week_view_schedule .schedule_wrapper #day_times .hour,
+          body .week_view .week_view_schedule .schedule_wrapper #day_times .fullday {
+            border-right: 1px solid white;
+            border-bottom: 1px solid white; }
+
+.event {
+  width: 100%;
+  z-index: 1; }
+
+.event_category_meetings {
+  background-color: green;
+  color: white; }
+
+.length {
+  height: 500px; }
+
+.start_three {
+  position: absolute;
+  top: 50px; }
